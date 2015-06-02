@@ -4,4 +4,4 @@ before_script:
   - pip uninstall numpy -y
   - pip install -I numpy==1.8.2
 
-script: python -c 'import numpy'
+script: python -c 'import numpy; print numpy.version.version'
